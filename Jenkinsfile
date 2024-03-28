@@ -6,12 +6,12 @@ pipeline{
     }
     stages{
         stage("Cleanup Workspace"){
-            step{
+            steps{
                 cleanWs()
             }
         }
         stage("Git Checkout"){
-            step{
+            steps{
                 git branch: 'main', credentialsId: 'github', url: 'https://github.com/shubhamlole/registration-app.git'
             }
         }
