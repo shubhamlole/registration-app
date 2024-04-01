@@ -32,6 +32,6 @@
   </div>
 
    <h1> Thanks </h1>
-   <br>
+   
    
 </form>
